@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    color: white
+  }
+  strong {
+    font-weight: 400;
+  }
+  p a {
+    display: inline;
+    color: black;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    font-weight: 400;
+  }
+  body {
+    font-size: 16px;
+    font-family: 'Poiret One', cursive;
+  }
+  .clear::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  img {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+  }
+  video {
+    display: block;
+    object-fit: cover;
+  }
+
+  /* HEADER */
+  body{
+      background-color: black;
+  }
+  p{
+      color: white;
+  }
+.fondo{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.cuadrados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projects{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0.95rem;
+    padding: 1rem .5rem;
+    width: 100px;
+    text-align: center;
+    color: white;
+    background: rgba(50, 24, 24, 0.4);
+    text-shadow: 0 0 5px black;
+}
+.datoscolor{
+    background-color: rgba(62, 151, 206, 0.927);
+    border-color:  rgb(2, 67, 108);
+}
+
+/* ALUMNOS */
+.alumnos{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+div#alumnos{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+h3, h4{
+    color: white;
+}
+
+.cuadro div{
+    color: white;
+}
+div.cuadro{
+    border: 1px solid grey;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    /* padding-left: 50px; */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+div#input{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#input div{
+    color: white;
+}
+input{
+    margin: 10px;
+}
+article{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0.95rem;
+    padding: 1rem .5rem;
+    text-align: center;
+    color: white;
+    background: rgba(152, 145, 145, 0.4);
+    text-shadow: 0 0 5px black;
+}
+button{
+    background-color: rgba(62, 151, 206, 0.927);
+    border-color:  rgb(2, 67, 108);
+    border-radius: 5px;
+    padding: 8px;
+}

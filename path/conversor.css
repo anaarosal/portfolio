@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    color: white
+  }
+  strong {
+    font-weight: 400;
+  }
+  p a {
+    display: inline;
+    color: black;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    font-weight: 400;
+  }
+  body {
+    font-size: 16px;
+    font-family: 'Poiret One', cursive;
+  }
+  .clear::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  img {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+  }
+  video {
+    display: block;
+    object-fit: cover;
+  }
+
+  /* HEADER */
+  body{
+      background-color: black;
+  }
+  p{
+      color: white;
+  }
+  .fondo{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.cuadrados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projects{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0.95rem;
+    padding: 1rem .5rem;
+    width: 100px;
+    text-align: center;
+    color: white;
+    background: rgba(152, 145, 145, 0.4);
+    text-shadow: 0 0 5px black;
+}
+.conversorcolor{
+    background-color: rgba(37, 166, 176, 0.92);
+}
+  /* CONVERSOR */
+  .conversor{
+    margin-top: 100px;
+  }
+  p{
+    color: white;
+  }
+.conversor div{
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    margin: 0.95rem;
+    padding: 1rem .5rem;
+    /* width: 100px; */
+    text-align: center;
+    /* color: white; */
+    background: rgba(152, 145, 145, 1);
+    /* text-shadow: 0 0 5px black; */
+}
+div input{
+   width: 80px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+article.uno{
+  background-color: rgba(37, 166, 176, 1);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+article.uno div{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(37, 166, 176, 0.92);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+}
+article.uno div.todos{
+    font-weight: 600;
+}
+.conversor{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+article.dos{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}

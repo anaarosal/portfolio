@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    color: white
+  }
+  strong {
+    font-weight: 400;
+  }
+  p a {
+    display: inline;
+    color: black;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    font-weight: 400;
+  }
+  body {
+    font-size: 16px;
+    font-family: 'Poiret One', cursive;
+  }
+  .clear::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  img {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+  }
+  video {
+    display: block;
+    object-fit: cover;
+  }
+
+
+.fondo{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../PortFOTO/img/tree.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.cuadrados{
+    min-height: 100vh;
+    display: flex;
+    /* flex-flow: row nowrap; */
+    align-items: center;
+    justify-content: center;
+}
+.projects{
+    border: 4px solid black;
+    border-radius: 5px;
+    margin: 0.95rem;
+
+    padding: 1rem .5rem;
+    width: 100px;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 5px black;
+}
+
+@media screen and (max-width: 1430px){
+    .fondo{
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .cuadrados{
+        border: 1px solid black;
+        /* background-color: yellow; */
+        border-radius: 5px;
+        margin: 0.95rem;
+        min-height: 100px;
+        background: rgba(239, 240, 230, 0.4);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+}

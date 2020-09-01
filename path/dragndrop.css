@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    color: white
+  }
+  strong {
+    font-weight: 400;
+  }
+  p a {
+    display: inline;
+    color: black;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    font-weight: 400;
+  }
+  body {
+    font-size: 16px;
+    font-family: 'Poiret One', cursive;
+  }
+  .clear::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  img {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+  }
+  video {
+    display: block;
+    object-fit: cover;
+  }
+
+  /* HEADER */
+  body{
+      background-color: black;
+  }
+  p{
+      color: white;
+  }
+.fondo{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.cuadrados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projects{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0.95rem;
+    padding: 1rem .5rem;
+    width: 100px;
+    text-align: center;
+    color: white;
+    background: rgba(152, 145, 145, 0.4);
+    text-shadow: 0 0 5px black;
+}
+.dragcolor{
+    background-color: rgba(245, 188, 43, 0.927);
+    border-color: rgb(255, 183, 0);
+}
+
+/* DRAGNDROP */
+.nuevo{
+    border: 2px dotted black;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+/* .dragndrop p{
+    font-size: 1.6em;
+} */
+#gridCuadrados{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.cuadrado{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(230, 190, 89, 0.927);
+    margin: 7px;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    cursor: move;
+}
+
+.cuadrado.soltado{
+    background-color: rgba(242, 180, 24, 0.94);
+    border: 1px solid black;
+    color: white;
+}
+#lenguajes{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+#drop{
+    height: 200px;
+    background-color: rgb(135, 135, 135);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 5px;
+}

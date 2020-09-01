@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    color: white
+  }
+  strong {
+    font-weight: 400;
+  }
+  p a {
+    display: inline;
+    color: black;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    font-weight: 400;
+  }
+  body {
+    font-size: 16px;
+    font-family: 'Poiret One', cursive;
+  }
+  .clear::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  img {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+  }
+  video {
+    display: block;
+    object-fit: cover;
+  }
+
+  /* HEADER */
+  body{
+      background-color: black;
+  }
+  p{
+      color: white;
+  }
+.fondo{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.cuadrados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projects{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0.95rem;
+    padding: 1rem .5rem;
+    width: 100px;
+    text-align: center;
+    color: white;
+    background: rgba(152, 145, 145, 0.4);
+    text-shadow: 0 0 5px black;
+}
+.apicolor{
+    background-color: rgba(43, 73, 247, 0.927);
+    border-color: rgba(3, 39, 238, 0.927);
+}
+
+/* SW API */
+.swapi{
+    /* width: 90%; */
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0.95rem;
+    padding: 1rem .5rem;
+    text-align: center;
+    color: white;
+    background: rgba(152, 145, 145, 0.4);
+    text-shadow: 0 0 5px black;
+    margin-top: 100px;
+}
+h1{
+    color: white;
+}
+#gridPersonajes{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.personaje{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#gridButtons{
+    display: flex;
+    justify-content: center;
+}
+#gridButtons button{
+    margin: 5px;
+    background-color: rgba(43, 73, 247, 0.927);
+    border-color: rgba(3, 39, 238, 0.927);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Poiret One', cursive;
+}
