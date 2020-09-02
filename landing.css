@@ -47,7 +47,7 @@
 .fondo{
     width: 100%;
     height: 100vh;
-    background-image: url(../PortFOTO/img/tree.jpg);
+    background-image: url(img/tree.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
