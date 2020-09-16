@@ -1,5 +1,5 @@
 # Portfolio
-This is Ana's portfolio.
+This is Ana's portfolio. 
 
 
 Currently working on responsive.
