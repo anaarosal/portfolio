@@ -7,3 +7,4 @@ Currently working on responsive.
 - Things to improve:
   * Responsive.
   * Converting JavaScript to TypeScript
+ 
